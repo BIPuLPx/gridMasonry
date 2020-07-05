@@ -13,8 +13,19 @@ body{
   grid-template-columns: repeat(4,1fr);
   
 }
+
 .container div div{
     margin: 10px;
+    position: relative;  
+}
+.container div div p{
+    position: absolute;
+    left: 50px;
+    top:20px;
+    color: rgb(148, 11, 11);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
 }
 
 img{
